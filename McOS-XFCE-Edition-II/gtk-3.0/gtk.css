@@ -10411,64 +10411,6 @@ MsdOsdWindow.background.osd .trough {
 /*            PANEL                                                  */
 /*********************************************************************/
 
-.panel {
-
-  background-color: transparent;
-  color: white;
-  font-weight: normal;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-
-.panel-shadow {
-
-  background-image: none;
-  background-color: transparent; }
-
-.panel .menu {
-
-  box-shadow: none; }
-
-.panel .menu .menuitem {
-
-  font-weight: normal;
-  text-shadow: none;
-  -gtk-icon-shadow: none; }
-
-.panel .menu .window-frame.menu.csd{
-
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
-.panel .menu .window-frame.popup.csd {
-
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
-.panel .menubar > .menuitem {
-
-  padding: 3px 6px; }
-
-.panel .menubar > .menuitem:hover {
-
-  background-color: transparent; }
-
-.panel .window-frame.menu.csd{
-
-  box-shadow: none; }
-
-.panel .window-frame.popup.csd {
-
-  box-shadow: none; }
-
-.panel-app-button > GtkWidget > GtkWidget:first-child {
-
-  padding: 0 2px 0 4px; }
-
-.panel .menu .spinner{
-
-  opacity: 1; }
-
-.menu .spinner {
-
-  opacity: 1; }
 
 /*********************************************************************/
 /*            COMPOSITED-INDICATOR                                   */
@@ -13127,8 +13069,8 @@ XfceHeading {
 
 .xfce4-panel.background {
 
-  background-color: shade(#686868, 0.35);
-  color: #fcfcfc;
+  background-color: transparent;
+  color: #000;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -13139,17 +13081,13 @@ XfceHeading {
 .xfce4-panel.background button {
 
   background-image: none;
-  background-color: #37383d;
+  background-color: transparent;
   border-radius: 0;
   border: none;
   box-shadow: none;
-  padding: 0 1px;
-  color: #dde2e7;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.5),
-				  0px  2px alpha(#202020, 0.05);
+  padding: 0 0px;
+  color: #000;
+  text-shadow:  none;
   /*text-shadow: 0px 1px rgba(0, 0, 0, 0.1);*/ }
 
 .xfce4-panel.background button:active,
